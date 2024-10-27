@@ -1,1 +1,1 @@
-Thankyou for watching my repositories!
+Thankyou for watching my repository!
