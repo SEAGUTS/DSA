@@ -4,23 +4,21 @@ int main()
 {
     int n;
     cin>>n;
-    string a[n];
+    int a[n];
     for (int i = 0; i < n; i++)
     {
         cin>>a[i];
     }
     for (int i = 0; i < n; i++)
     {
-        if (a[i]=="shreyansh")
+        if (a[i]<0)
         {
-            a[i]="I AM IDIOT";
-            // cout<<a[i];
+            cout<<a[i]<<" ";
         }
-        
+        else
+        {
+            continue;
+        }
     }
-    for (int i = 0; i < n; i++)
-    {
-        cout<<a[i]<<' ';
-    }
-    return 0;
+return 0;
 }

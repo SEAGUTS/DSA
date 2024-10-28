@@ -11,16 +11,11 @@ int main()
     }
     for (int i = 0; i < n; i++)
     {
-        if (a[i]=="shreyansh")
-        {
-            a[i]="I AM IDIOT";
-            // cout<<a[i];
-        }
-        
+        a[i]="*";
     }
     for (int i = 0; i < n; i++)
     {
-        cout<<a[i]<<' ';
+        cout<<a[i]<<" ";
     }
-    return 0;
+return 0;
 }
