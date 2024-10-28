@@ -1,4 +1,4 @@
-#to insert in a array and display the the array
+//to insert in a array and display the the array
 #include <iostream>
 using namespace std;
 int main()
